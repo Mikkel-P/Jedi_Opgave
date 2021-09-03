@@ -30,6 +30,9 @@ namespace Jedi_Opgave
             // ElementAt().Value writes the value associated with that index spot
             Console.WriteLine(nameAge.ElementAt(0).Key + " " + nameAge.ElementAt(0).Value);
 
+            // Test to see if the value changes
+            nameAge["Mikkel"] = 22;
+
 
             // Opgave 3
 
